@@ -1,0 +1,85 @@
+/*
+Theme Name: Fashow
+Theme URI: http://wpbingosite.com/wordpress/fashow/
+Author: Wpbingo
+Author URI: http://wpbingosite.com/
+Description: Fashow is a modern, clean and professional WooCommerce WordPress theme. It is built to well suit for any online stores: electronics store, fashion store, jewelry store...
+Version: 1.2.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, two-columns, left-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-logo, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+Text Domain: fashow
+*/
+
+.bypostauthor {
+	font-style: italic;
+	font-size: 12px;
+	color: #757575;
+}
+
+.bwp-header .header-logo img{
+	max-height: 46px !important;
+}
+.item-product-cat-content {
+    background: rgba(0, 0, 0, 0.7);;
+    width: 85%;
+    height: 15%;
+    padding: 8px;
+}
+.bwp-woo-categories .slick-arrow{
+    opacity:1;
+}
+.slick-arrow {
+    cursor: pointer;
+    color: #fff;
+    border-color: #da4d4c !important;
+    background-color: #da4d4c;
+}
+
+#nav_menu-2 .widget-title:before {
+     position: absolute;
+    left: -16px;
+    top: -2px;
+    content: "\f2c0";
+    font-family: FontAwesome;
+    font-size: 15px;
+}
+a.btn-singleimage.btn-lg {
+    font-size: 18px !important;
+}
+.breadcrumb .delimiter {
+    margin: 0 2px;
+}
+div#breadcrumb {
+    padding: 7px;
+    font-size: 15px;
+}
+img.icon-social-tam {
+    height: 23px;
+}
+
+
+/* Mobile Devices */
+@media (max-width: 480px) {
+	/*menu*/
+	.bwp-header.header-v2 .header-wrapper {
+		padding: 3px 0 !important;
+	}
+	/*footer*/
+	#bwp-footer .wpb_content_element{
+	   text-align: center !important;
+	}
+}
+        
+/* Low resolution Tablets and iPads */
+@media (min-width: 481px) and (max-width: 767px) {
+   /*menu*/
+	.bwp-header.header-v2 .header-wrapper {
+   		 padding: 3px 0 !important;
+	}
+   
+	/*footer*/
+	#bwp-footer .wpb_content_element{
+	   text-align: center !important;
+	}
+}
