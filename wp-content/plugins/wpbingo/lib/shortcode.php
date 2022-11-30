@@ -6,7 +6,7 @@
 		if($fashow_settings['link-fb'])
 			//https://hot-living.test/wp-content/uploads/2022/11/facebook-icon.png
 			//$content .= '<li><a href="'.esc_url($fashow_settings['link-fb']).'"><i class="fa fa-facebook"></i></a></li>';
-			$content .= '<li><a href="'.esc_url($fashow_settings['link-fb']).'"><img src="https://hot-living.test/wp-content/uploads/2022/11/facebook-icon.png" alt="" class="icon-social-tam"></a></li>';
+			$content .= '<li><a href="'.esc_url($fashow_settings['link-fb']).'"><img src="http://showtest.digitalclouddev.com/wp-content/uploads/2022/11/facebook-icon.png" alt="" class="icon-social-tam"></a></li>';
 
 		if($fashow_settings['link-tw'])
 			$content .= '<li><a href="'.esc_url($fashow_settings['link-tw']).'"><i class="fa fa-twitter"></i></a></li>';
@@ -14,7 +14,7 @@
 			$content .= '<li><a href="'.esc_url($fashow_settings['link-googleplus']).'"><i class="fa fa-google"></i></a></li>';
 		if($fashow_settings['link-instagram'])
 			//$content .= '<li><a href="'.esc_url($fashow_settings['link-instagram']).'"><i class="fa fa-instagram"></i></a></li>';
-			 $content .= '<li><a href="'.esc_url($fashow_settings['link-instagram']).'"><img src="https://hot-living.test/wp-content/uploads/2022/11/insta-logo.png" alt="" class="icon-social-tam"></a></li>';
+			 $content .= '<li><a href="'.esc_url($fashow_settings['link-instagram']).'"><img src="http://showtest.digitalclouddev.com/wp-content/uploads/2022/11/insta-logo.png" alt="" class="icon-social-tam"></a></li>';
 
 			//
 		if($fashow_settings['link-linkedin'])
